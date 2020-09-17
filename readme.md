@@ -44,6 +44,10 @@ Veel code moeten wijzigen omdat positonering niet klopte. Aantal tips van de les
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent-
+(images/1.png)
+(images/2.png)
+(images/3.png)
+
 
 ### Agenda voor meeting
 
@@ -66,7 +70,7 @@ B2
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg) voetbalzone.nl
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/vb.png)
 
 **Breakdown-schets(en):**
 
