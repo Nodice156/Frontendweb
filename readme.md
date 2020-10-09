@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** Adil Yakubi
+**Auteur:** -jouw naam-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -39,20 +39,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
-Veel code moeten wijzigen omdat positonering niet klopte. Aantal tips van de lessen in meegenomen dat heeft gewerkt.
 
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent-
-(images/1.png)
-(images/2.png)
-(images/3.png)
-
 
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
-B2
 
 ### Verslag van meeting
 
@@ -62,15 +56,15 @@ B2
 
 ## Intake (week 1)
 
-**Je startniveau:** -blauw-
+**Je startniveau:** -kies uit zwart, rood óf blauw-
 
-**Je focus:** -responsive-
+**Je focus:** -kies uit responsive óf surface plane-
 
-**Je opdracht:** -www.voetbalzone.nl-
+**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/vb.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
 
 **Breakdown-schets(en):**
 

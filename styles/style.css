@@ -1,23 +1,8 @@
 /* Style reset */
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, footer, header, hgroup, menu, nav, section{
     margin:0;
     padding:0;
     border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -29,11 +14,11 @@ footer {
 	background-color: #1D1D1B;
 	color: #fff;
 	overflow: hidden;
-  padding: 10px 0;
+    padding: 10px 0;
 
 }
 
-.home-button {
+.home-knop img {
 	max-width: 100%;
 	height: auto;
 }
@@ -49,9 +34,8 @@ nav ul {
 }
 
 nav ul li {
-float: left;
-  width: 50%;
-  text-align: center;
+    width: auto;
+    display: inline-block;
 }
 
 footer div.container {
@@ -67,30 +51,25 @@ main {
 }
 
 section.container {
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	background-color: #fff;
 }
 
-section.content {
+div.content {
 	display: flex;
 	flex-direction: column;
   justify-content: center;
 }
 
 section.container article {
-	padding:10px;
+	width: 100%;
+	padding:20px;
 }
 
 .content article img {
 	max-width: 100%
 }
-
-
-/* Footer styling */
-
-
-/* actions & animations */
 
 
 /* Small devices (landscape phones, 576px and up) */
@@ -102,7 +81,7 @@ section.container article {
 @media (min-width: 768px) {
  header .container,
 	footer .container {
-		width: 90%!important;
+		width: 90%;
 		margin: auto;
 		display: flex;
 		flex-direction: row;
@@ -117,9 +96,9 @@ section.container article {
 	section.container {
 		width: 90%;
 	}
-	section.content {
+	div.content {
 		flex-direction: row;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
 	}
 	section.container article {
 		width: 45%;
@@ -139,6 +118,24 @@ section.container article {
  	header .container,
 	footer .container,
 	section.container{
-		width: 80%!important;
+		width: 80%;
 	}
+}
+
+.favoriet {
+  cursor:pointer;
+  background:#fff;
+  border-radius:50%;
+  display:inline-block;
+  color:#aaa;
+  font-size:30px;
+}
+
+.favoriet:hover {
+  color:#666;
+}
+
+.favoriet.press {
+  animation: size .4s;
+  color:#e23b3b;
 }
