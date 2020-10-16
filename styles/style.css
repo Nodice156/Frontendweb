@@ -1,5 +1,5 @@
 /* Style reset */
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, footer, header, hgroup, menu, nav, section{
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, footer, header, hgroup, menu, nav{
     margin:0;
     padding:0;
     border:0;
@@ -7,7 +7,9 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, footer, header, hgroup, menu, 
 }
 
 /* Header & footer styling*/
-
+body{
+  background-color:#eee;
+}
 header,
 footer {
 	width: 100%;
@@ -21,21 +23,57 @@ footer {
 .home-knop img {
 	max-width: 100%;
 	height: auto;
+	width:40%;
 }
 
+.submenu ul li:first-child {
+    padding-left: 0;
+}
+
+.submenu ul {
+    padding: 0;
+}
+
+.login {
+    max-width: 50%;
+}
+
+.login p{
+  padding:1em;
+  padding-left:0;
+}
 .logo,
 nav {
 	margin: auto;
 	width: 90%;
 }
+div.img-container span {
+    background-color: lightgreen;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+div.img-container {
+    position: relative;
+}
 
-nav ul {
+nav ul, .submenu ul {
 	list-style-type: none;
 }
 
-nav ul li {
+nav ul li, .submenu ul li {
     width: auto;
     display: inline-block;
+}
+
+.submenu {
+    width: 70%;
+    margin: auto;
+}
+
+.submenu ul li {
+    padding: 0 2em;
 }
 
 footer div.container {
@@ -50,25 +88,99 @@ main {
 	background-color: #EEE;
 }
 
-section.container {
+main.container {
 	width: 100%;
 	margin: auto;
 	background-color: #fff;
 }
 
-div.content {
+div.content,div.content-bottom {
 	display: flex;
 	flex-direction: column;
   justify-content: center;
 }
 
-section.container article {
+main.container article {
 	width: 100%;
-	padding:20px;
+	padding:1em;
 }
 
 .content article img {
 	max-width: 100%
+}
+
+.favoriet {
+  cursor:pointer;
+  background:#fff;
+  border-radius:50%;
+  display:inline-block;
+  color:#aaa;
+  font-size:30px;
+}
+
+.favoriet:hover {
+  color:#666;
+}
+
+.favoriet.press {
+  animation: size .4s;
+  color:#e23b3b;
+}
+
+main.container div {
+    width: fit-content;
+    margin: auto;
+    padding: 1em 0;
+}
+input {
+    padding: .5em .5em;
+    background-color: white;
+    color: black;
+    padding: .5em .5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: default;
+    border: 1px solid black;
+    width: 100%;
+    display: inline-block;
+}
+
+main.container article div {
+    padding: 0;
+}
+main.container article div.fav {
+    padding: 0;
+}
+
+a.btn {
+    background-color: white;
+    color: black;
+    padding: .5em .5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: default;
+    border: 1px solid black;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+div h2 {
+    width: 96%;
+}
+
+.content-bottom article.trending{
+  width:10em;
+  padding:1em;
+}
+
+div.content-bottom article.trending img {
+    width: 100%;
+}
+
+nav ul li a img {
+    width: 15px;
+    padding: 0 0.3em;
 }
 
 
@@ -93,14 +205,14 @@ section.container article {
 	nav ul {
 		float: right;
 	}
-	section.container {
+	main.container {
 		width: 90%;
 	}
-	div.content {
+	div.content, div.content-bottom {
 		flex-direction: row;
         flex-wrap: wrap;
 	}
-	section.container article {
+	main.container article {
 		width: 45%;
 	}
 }
@@ -108,7 +220,7 @@ section.container article {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   
-	section.container article {
+	main.container article {
 		width: 29%;
 	}
 }
@@ -117,25 +229,7 @@ section.container article {
 @media (min-width: 1200px) {
  	header .container,
 	footer .container,
-	section.container{
-		width: 80%;
+	main.container{
+		width: 70%;
 	}
-}
-
-.favoriet {
-  cursor:pointer;
-  background:#fff;
-  border-radius:50%;
-  display:inline-block;
-  color:#aaa;
-  font-size:30px;
-}
-
-.favoriet:hover {
-  color:#666;
-}
-
-.favoriet.press {
-  animation: size .4s;
-  color:#e23b3b;
 }
