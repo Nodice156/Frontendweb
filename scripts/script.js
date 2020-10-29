@@ -1,21 +1,10 @@
-// JavaScript Document
-$(document).ready(function(){
-    $('span.favoriet').click(function(){
-       $(this).toggleClass("press");
-       $(this).parents('article').addClass('fav-article');
+var count=0
 
-       
-       if ($(this).hasClass("press")) {
-          parseInt($(".fav-counter").text());
-          var newVal = parseInt($(".fav-counter").text()) + 1;
-          $(".fav-counter").text(newVal);
+document.getElementById("counter").onclick=function(){
+    count=count+1;
+    document.getElementById("counter-text").innerHTML=count}
 
-
-      }else{
-          newVal = parseInt($(".fav-counter").text()) -1;
-          $(".fav-counter").text(newVal);
-      }
-      
-   });
-   
-});
+document.getElementById("reset").onclick=function(){
+    count=0
+    document.getElementById("counter").innerHTML=count;
+}
