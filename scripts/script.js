@@ -6,5 +6,4 @@ document.getElementById("counter").onclick=function(){
 
 document.getElementById("reset").onclick=function(){
     count=0
-    document.getElementById("counter").innerHTML=count;
-}
+    document.getElementById("counter-text").innerHTML=count}

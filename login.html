@@ -10,38 +10,48 @@
    <body>
       <!-- Header sectie van de website -->
       <header>
-         <div class="container">
+         <div class="inner-header">
             <!-- Websitelogo/fucntioneert ook als home knop -->
             <div class="logo">
                <a class="home-knop" href="index.html"><img class="home-button" src="images/voetbalzone-logo.png" alt=""></a>
             </div>
             <!-- Navigatiemenu van de website-->
-            <nav>
+            <nav class="main-menu">
                <ul>
-                  <li><a href="zoeken.html">Zoeken</a></li>
-                  <li><a href="favorieten.html">Favorieten</a></li>
-                  <li><a href="login.html">Login</a></li>
+                  <li class="active">Nieuws</li>
+                  <li>Wedstrijden</li>
+                  <li>Competities</li>
+                  <li>Video's</li>
+                  <li>Community</li>
+               </ul>
+            </nav>
+            <nav class="secondary-menu">
+               <ul>
+                  <li><a href="#">Zoeken</a></li>
+                   <li><a href="login.html">Login</a></li>
+                   <li><a href="#" id="counter">&hearts; Favorieten (<span id="counter-text">0</span>)</a></li>
+                   <li><a href="#" id="reset">Reset</a></li> 
                </ul>
             </nav>
          </div>
       </header>
       <!-- De content sectie van de website -->
       <main class="container">
-          <div>
+          <form>
             <label for="email">Emailadres</label>
             <input type="email" id="email">
             <label for="wachtwoord">Wachtwoord</label>
             <input type="password" id="wachtwoord">
             <br><br><a class="btn" href="#">Login</a><br><br>
             <a href="#">Wachtwoord vergeten?</a>&nbsp;&nbsp;&nbsp;<a href="#">Registeren</a>
-          </div>
+          </form>
       </main>
       <!-- Footer sectie van de website -->
       <footer>
          <div class="container">
-            <span>Copyright &copy; 2020 All Rights Reserved by<a href="index.html">Voetbalzone</a>.</span>
+            <span>Copyright &copy; 2020 All Rights Reserved by <a href="index.html">Voetbalzone</a>.</span>
          </div>
          <script src="scripts/script.js"></script>
       </footer>
    </body>
-</html>
+</html> 
