@@ -11,6 +11,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 3. https://meyerweb.com/eric/tools/css/reset/ (css reset)
 4. https://css-tricks.com/introduction-fr-css-unit/ (grids)
 5. https://www.w3schools.com/css/css3_mediaqueries_ex.asp (qeuries)
+6. https://stackoverflow.com/a/6607613 (hover menu n-2)
 
 
 
